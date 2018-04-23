@@ -15,10 +15,10 @@ public int[] RetSumIndices(int target, int[] arr)
 			indices[1] = entry.Value;
 			return indices;
 		}
-    else
-    {
-      indices[0] = 0;
-    }
+  		else
+    		{
+			indices[0] = 0;
+		}
 	}
 
 	return indices;
